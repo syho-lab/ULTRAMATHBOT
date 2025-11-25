@@ -3,7 +3,7 @@ import requests
 import os
 
 def ping_server():
-    url = "https://ULTRAMATHBOTonrender.com"  # Ваш URL на Render
+    url = "https://ULTRAMATHBOT2.onrender.com"  # Ваш URL на Render
     try:
         response = requests.get(url)
         print(f"Ping successful: {response.status_code}")
